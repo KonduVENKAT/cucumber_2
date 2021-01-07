@@ -8,12 +8,12 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		
-	//	features= {"src/test/resources/login.feature"},
+	//	features= {"src/test/resources/login.feature"},// this time I'm getting initialization Exception
 	//	glue= {"stepDefinitions"},
 	//	plugin= {"pretty"}
 		
 		
-		features= {"src/test/resources"},
+		features= {"src/test/resources/appFeatures/login.feature"},
 		glue= {"stepDefinitions"},
 		plugin= {"pretty"}
 		

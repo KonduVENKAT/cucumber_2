@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		
-		features= {"src/test/resources"},// if I specify including feature I'm getting initialization exception
+		features= {"src/test/resources/appFeatures/AmezonSearch.feature"},// if I specify including feature I'm getting initialization exception
 		glue= {"stepDefinitions"},
 		plugin= {"pretty"}
 		

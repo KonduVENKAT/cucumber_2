@@ -14,7 +14,7 @@ public void when_user_in_login_page() {
 System.out.println("Step-1__ this is testing about data Driven by using cucuber framewrok How to implement this feature ");
 }
 
-@When("Enters the given data")
+@When("Enters the given data")// is it possible to get this data from excel sheet .If Yes how to do this 
 public void enters_the_given_data(io.cucumber.datatable.DataTable dataTable) {
     // Write code here that turns the phrase above into concrete actions
     // For automatic transformation, change DataTable to one of
